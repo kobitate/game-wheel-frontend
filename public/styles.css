@@ -1,0 +1,6 @@
+.spinner > div {
+  width: 100vw !important;
+  max-width: none !important;
+  height: 100vw !important;
+  max-height: none !important;
+}
