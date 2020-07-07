@@ -6,7 +6,7 @@ export default class Socket {
       reconnectionDelay: 1000,
       reconnection: true,
       reconnectionAttemps: 10,
-      transports: ['websocket'],
+      transports: ['websocket', 'polling'],
       agent: false,
       upgrade: false,
       rejectUnauthorized: false,
