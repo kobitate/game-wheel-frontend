@@ -9,7 +9,8 @@ export default class Socket {
       transports: ['websocket'],
       agent: false,
       upgrade: false,
-      rejectUnauthorized: false
+      rejectUnauthorized: false,
+      secure: true
     })
   }
 
