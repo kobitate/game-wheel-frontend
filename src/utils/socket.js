@@ -9,8 +9,7 @@ export default class Socket {
       transports: ['websocket', 'polling'],
       agent: false,
       upgrade: false,
-      rejectUnauthorized: false,
-      secure: true
+      rejectUnauthorized: false
     })
   }
 
