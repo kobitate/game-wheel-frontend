@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default () => (
   <>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.REACT_APP_ROOT_DIRECTORY}>
       <Route exact path='/' component={OBSView} />
       <Route path='/admin' component={Admin} />
     </BrowserRouter>
